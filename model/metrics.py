@@ -57,12 +57,18 @@ def evaluate_binary_classifier(y_true, y_pred, title='Model Evaluation'):
     y_true = np.asarray(y_true).ravel().astype(int)
     y_pred = np.asarray(y_pred).ravel().astype(int)
 
+    # Compute metrics using sklearn
+    accuracy = accuracy_score(y_true, y_pred)
+    precision = precision_score(y_true, y_pred)
+    recall = recall_score(y_true, y_pred)
+    f1 = f1_score(y_true, y_pred)
+
     # TODO 
     metrics = {
-        'Accuracy': 'TODO: use sklearn.metrics to compute accuracy',
-        'Precision': 'TODO: use sklearn.metrics to compute Precision',
-        'Recall': 'TODO: use sklearn.metrics to compute Recall',
-        'F1-score': 'TODO: use sklearn.metrics to compute F1-score'
+        'Accuracy': accuracy,
+        'Precision': precision,
+        'Recall': recall,
+        'F1-score': f1
     }
 
     print(title)
