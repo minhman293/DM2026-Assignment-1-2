@@ -8,6 +8,10 @@ You can fork this repository
 ├── Linear_Regression.ipynb                  #1. Linear Regression
 ├── Logistic_Regression.ipynb                #2. Logistic Regression
 ├── Real_World_Classification.ipynb          #3. Real World Classification
+├── SVM_Mobile_Price.ipynb                   #4. SVM (Mobile Price Dataset)
+├── AssociationRule_Mobile_Price.ipynb       #5. Association Rule Mining (Mobile Price Dataset)
+├── PCA_KMeans_Mobile_Price.ipynb            #6. PCA and K-Means (Mobile Price Dataset)
+├── ARM_KMeans_Mobile_Price.ipynb            #7. K-Means and Association Rule Mining (Mobile Price Dataset)
 ├── README.md                                
 ├── data/                                    
 └── model/                                   
